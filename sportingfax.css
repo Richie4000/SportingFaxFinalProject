@@ -3,6 +3,15 @@ body {
     text-align: center;
 }
 
+/* Header attributes */
+header {
+    position: fixed;
+    left: 10;
+    top: 100;
+
+}
+
+/* Footer attributes */
 footer {
     background-color: #202020;
     color: lightblue;
@@ -15,6 +24,7 @@ footer {
     grid-area: footer;
 }
 
+/* Attributes of the board */
 #board {
     height: 540px;
     width: 630px;
@@ -26,6 +36,7 @@ footer {
     flex-wrap: wrap;
 }
 
+/* Sizes of the tiles */
 .tile {
     height: 70px;
     width: 70px;
@@ -37,10 +48,28 @@ footer {
     border: 5px solid navy;
 }
 
+
+/* User One attributes*/
+.userfact {
+    background-color: aqua;
+    text-align: left;
+
+}
+
+/* User Two attributes, I need to move this to the right */
+.userfact2 {
+    background-color: rebeccapurple;
+    text-align: right;
+  
+}
+
+/* Player One Piece */
 .red-piece {
     background-image: url(balls/6.png);
 }
 
+
+/* Player Two Piece */
 .yellow-piece {
     background-image: url(balls/1.png);
 }
