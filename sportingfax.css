@@ -53,6 +53,9 @@ footer {
 .userfact {
     background-color: aqua;
     text-align: left;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 0.2px;
 
 }
 
@@ -60,8 +63,14 @@ footer {
 .userfact2 {
     background-color: rebeccapurple;
     text-align: right;
-  
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 0.2px;
+
 }
+
+
+
 
 /* Player One Piece */
 .red-piece {
