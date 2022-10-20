@@ -1,10 +1,13 @@
+/* Body attributes */
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    /* background color */
     background-color: pink;
     margin: 0;
 }
 
+/* Footer attributes */
 footer {
     background-color: #202020;
     color: lightblue;
@@ -17,6 +20,7 @@ footer {
     grid-area: footer;
 }
 
+/* */
 * {
     box-sizing: border-box;
 }
@@ -25,6 +29,7 @@ footer {
     display: none;
 }
 
+/* Put the images on dead in the middle */
 img {
     vertical-align: middle;
 }
@@ -87,6 +92,7 @@ img {
   transition: background-color 0.6s ease;
 }
 
+/* background color of dot */
 .active, .dot:hover {
   background-color: #717171;
 }

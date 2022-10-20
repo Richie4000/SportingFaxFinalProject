@@ -1,5 +1,5 @@
 
-
+// player one and two variable
 var playerOne = "1";
 var playerTwo = "2";
 var currPlayer = playerOne;
@@ -7,14 +7,16 @@ var currPlayer = playerOne;
 var gameOver = false;
 var board;
 
-var rows = 6;
-var columns = 7;
+var rows = 6; // 6 rows
+var columns = 7; // 7 columns
 var currColumns = []; //keeps track of which row each column is at.
 
+// functions of the game
 window.onload = function() {
     setGame();
 }
 
+// functions of the board
 function setGame() {
     board = [];
     currColumns = [5, 5, 5, 5, 5, 5, 5];
@@ -119,12 +121,20 @@ function checkWinner() {
     }
 }
 
+// this determines the winner, insert motivational quote here.
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
     if (board[r][c] == playerOne) {
-        winner.innerText = "User 1 Wins";             
+        winner.innerText = "User 1 Wins. A champion is afraid of losing. Everyone else is afraid of winning.";             
     } else {
-        winner.innerText = "User 2 Wins";
+        winner.innerText = "User 2 Wins. Winning solves everything.";
     }
     gameOver = true;
+}
+
+
+// need to add some JS relating to the facts
+
+function presentFacts() {
+    let fact = getElementById("userfact");   
 }

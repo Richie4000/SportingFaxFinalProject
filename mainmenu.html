@@ -11,55 +11,69 @@
 
 <body>
     <!--This is the main menu of the page-->
+    <!---Some text here for the reader-->
     <h1><b>Welcome to Sporting Fax</b></h1>
     <h2>Where competiton meets information. Compemation if you will.
     </h2>
     <h3>As well as we invent games, we also invent words.</h3>
-    <h4>Pick a Sport. Any Sport. Oh you're not sure? That's okay, we can pick a <a href="sportingfax.html">RANDOM</a> one for you!</h4>
+    <!-----If the user has trouble picking a sport, they have the option to pick a random one-->
+    <h4>Pick a Sport. Any Sport. Oh you're not sure? That's okay, we can pick a <a href="random.html">RANDOM</a> one for you!</h4>
     <!--User picks sports around here -->
 
 
+    <!--This class container represents the sports that the user is available to pick-->
         <div class="container">
+
+            <!--Football-->
             <div class="mySlides">
+                <a href="sportingfax.html">
                 <img src="sports/football.jpg" alt="Football">
                 </a>
                 <div class="text">Football</div>
                 </div>
 
+                <!--Baskeball-->
             <div class="mySlides">
+                <a href="basketball.html">
                     <img src="sports/basketball.jpg" alt="Basketball">
                 </a>
                 <div class="text">Basketball</div>
             </div>
 
+            <!---Tennis-->
             <div class="mySlides">
+                <a href="tennis.html">
                     <img src="sports/tennis.jpg" alt="Tennis">
                 </a>
                 <div class="text">Tennis</div>
             </div>
 
+            <!--Baseball-->
             <div class="mySlides">
-                <!--<a href="sportingfax.html">--->
+                <a href="baseball.html">
                     <img src="sports/baseball.jpg" alt="Baseball">
                 </a>
                 <div class="text">Baseball</div>
             </div>
 
+            <!---Golf-->
             <div class="mySlides">
+                <a href="golf.html">
                     <img src="sports/golf.jpg" alt="Golf">
                 </a>
                 <div class="text">Golf</div>
             </div>
 
+            <!----Snooker-->
             <div class="mySlides">
+                <a href="snooker.html">
                     <img src="sports/pool.jpg" alt="Snooker">
                 </a>
                 <div class="text">Snooker</div>
             </div>
 
-            <!--<a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>--->
 
+            <!--Movement of the slide container, this allows the user to navigate through the sports selection-->
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
@@ -71,7 +85,7 @@
 
 
         
-    
+<!---Footer for Sporting Fax-->    
 <footer>
     &copy; 2022 Copyright - Sporting Fax
 </footer>

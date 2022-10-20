@@ -79,12 +79,12 @@ footer {
 
 /* Player One Piece */
 .red-piece {
-    background-image: url(balls/1.png);
+    background-image: url(balls/3.png);
 }
 
 
 /* Player Two Piece */
 .yellow-piece {
-    background-image: url(balls/2.png);
+    background-image: url(balls/4.png);
 }
 
