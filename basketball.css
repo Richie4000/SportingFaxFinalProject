@@ -44,7 +44,7 @@ footer {
     margin: 5px;
 
     /* Circle */
-    background-color: white;
+    background-color: red;
     border-radius: 50%;
     border: 5px solid navy;
 }

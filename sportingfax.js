@@ -136,5 +136,8 @@ function setWinner(r, c) {
 // need to add some JS relating to the facts
 
 function presentFacts() {
-    let fact = getElementById("userfact");   
+    let fact = getElementById("userfact");
+    if (board[r][c] == '') {
+        fact.innerText = "Did you know?"
+    }   
 }
