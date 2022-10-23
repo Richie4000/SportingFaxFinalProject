@@ -125,9 +125,9 @@ function checkWinner() {
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
     if (board[r][c] == playerOne) {
-        winner.innerText = "User 1 Wins. You can't win unless you learn how to lose.";             
+        winner.innerText = "User 1 Wins. Never give up. Failure and rejection are just the first steps to succeeding";             
     } else {
-        winner.innerText = "User 2 Wins. The more difficult the victory, the greater the happiness in winning.";
+        winner.innerText = "User 2 Wins. Losing feels worse than winning feels good";
     }
     gameOver = true;
 }
@@ -145,25 +145,32 @@ setTimeout(TimeoutFax5, 30000)
 setTimeout(TimeOutFax6, 36000)
 setTimeout(TimeoutFax7, 42000)
 
-// Every 6 seconds, facts will print out on the screen
 function TimeoutFax() {
-    document.getElementById("userfact").innerText = "Basketball was invented by Dr. James Naismith in 1891."
+    document.getElementById("userfact").innerText = "The odds of getting a hole-in-one is 12,500 to one."
 }
+
+
 function TimeoutFax2() {
-    document.getElementById("userfact").innerText = "The NBA has been around since the 1970s."
+    document.getElementById("userfact").innerText = "The odds of getting two holes in one are 67 million to one!"
 }
+
+
 function TimeOutFax3() {
-    document.getElementById("userfact").innerText = "Wilt Chamberlain broke the record for 100 points in a single game."
+    document.getElementById("userfact").innerText = "St Andrews, Scotland has a famous course that has been around since the 15th century."
 }
+
 function TimeoutFax4() {
-    document.getElementById("userfact").innerText = "Kobe Bryant was the youngest player to start an NBA Match."
+    document.getElementById("userfact").innerText = "The record for the longest putt is 375 feet."
 }
+
 function TimeoutFax5() {
-    document.getElementById("userfact").innerText = "The average that an NBA player runs is 2.5 miles per game. "
+    document.getElementById("userfact").innerText = "Golf is a relaxing and sociable sport that can burn calories."
 }
+
 function TimeOutFax6() {
-    document.getElementById("userfact").innerText = "Women’s basketball was officially added as an Olympic sport during the 1976 Summer Olympics in Montreal."
+    document.getElementById("userfact").innerText = "There are claims that the Scots invented golf in the 19th century, or the Chinese invented it in the 10th century."
 }
+
 function TimeoutFax7() {
     document.getElementById("userfact").innerText = "If you win, lose or draw, press the SF logo to play again or pick a different sport."
 }
@@ -179,22 +186,22 @@ setTimeout(UserTwoTimeoutFax6, 60000)
 setTimeout(UserTwoTimeoutFax7, 65000)
 
 function UserTwoTimeoutFax() {
-    document.getElementById("userfact2").innerText = "The odds of getting a hole-in-one is 12,500 to one."
+    document.getElementById("userfact2").innerText = "Brazil won the World Cup in 1958, 1962, 1970, 1994, and 2002."
 }
 function UserTwoTimeoutFax2() {
-    document.getElementById("userfact2").innerText = "The odds of getting two holes in one are 67 million to one!"
+    document.getElementById("userfact2").innerText = "Women’s football has been in demand after England women’s won the Euros in 2022."
 }
 function UserTwoTimeoutFax3() {
-    document.getElementById("userfact2").innerText = "St Andrews, Scotland has a famous course that has been around since the 15th century."
+    document.getElementById("userfact2").innerText = "A football team has a maximum of 11 players. 10 outfield players and one goalkeeper."
 }
 function UserTwoTimeoutFax4() {
-    document.getElementById("userfact2").innerText = "The record for the longest putt is 375 feet."
+    document.getElementById("userfact2").innerText = "Football (the English kind) is the most recognized sport in the world with 250 million users in 200 countries."
 }
 function UserTwoTimeoutFax5() {
-    document.getElementById("userfact2").innerText = "Golf is a relaxing and sociable sport that can burn calories."
+    document.getElementById("userfact2").innerText = "Greenland cannot compete in the World Cup because they do not have enough grass for a football field"
 }
 function UserTwoTimeoutFax6() {
-    document.getElementById("userfact2").innerText = "There are claims that the Scots invented golf in the 19th century, or the Chinese invented it in the 10th century." 
+    document.getElementById("userfact2").innerText = "Referees were not involved in the sport until 1881. Before a player had to make their own decision." 
 }
 function UserTwoTimeoutFax7() {
     document.getElementById("userfact2") = innerText = "If you win, lose or draw, press the SF logo to play again or pick a different sport."

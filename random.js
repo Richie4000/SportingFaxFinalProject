@@ -142,8 +142,8 @@ setTimeout(TimeoutFax2, 12000)
 setTimeout(TimeOutFax3, 18000)
 setTimeout(TimeoutFax4, 24000)
 setTimeout(TimeoutFax5, 30000)
-setTimeout(TimeOutFax6, 36000)
-setTimeout(TimeoutFax7, 42000)
+setTimeout(TimeOutFax6, 38000)
+setTimeout(TimeoutFax7, 44000)
 
 // Every 6 seconds, facts will print out on the screen
 function TimeoutFax() {
@@ -179,22 +179,22 @@ setTimeout(UserTwoTimeoutFax6, 60000)
 setTimeout(UserTwoTimeoutFax7, 65000)
 
 function UserTwoTimeoutFax() {
-    document.getElementById("userfact2").innerText = "The odds of getting a hole-in-one is 12,500 to one."
+    document.getElementById("userfact2").innerText = "Venus and Serena Williams were the first sisters to win Olympic gold medals in tennis."
 }
 function UserTwoTimeoutFax2() {
-    document.getElementById("userfact2").innerText = "The odds of getting two holes in one are 67 million to one!"
+    document.getElementById("userfact2").innerText = "Wimbledon has been around since the 19th century dating back to 1877."
 }
 function UserTwoTimeoutFax3() {
-    document.getElementById("userfact2").innerText = "St Andrews, Scotland has a famous course that has been around since the 15th century."
+    document.getElementById("userfact2").innerText = "Grunts are measured in tennis. Maria Sharapova’s grunt was 105 decibels, it was recorded as the loudest."
 }
 function UserTwoTimeoutFax4() {
-    document.getElementById("userfact2").innerText = "The record for the longest putt is 375 feet."
+    document.getElementById("userfact2").innerText = "In the 12th century, tennis was played with hands. Eventually, rackets were introduced in the 16th century because people’s hands got sore."
 }
 function UserTwoTimeoutFax5() {
-    document.getElementById("userfact2").innerText = "Golf is a relaxing and sociable sport that can burn calories."
+    document.getElementById("userfact2").innerText = "Novak Djokovic tops the male tennis players in terms of the highest number of prizes achieved, with over $143 million in winnings!"
 }
 function UserTwoTimeoutFax6() {
-    document.getElementById("userfact2").innerText = "There are claims that the Scots invented golf in the 19th century, or the Chinese invented it in the 10th century." 
+    document.getElementById("userfact2").innerText = "According to the International Tennis Federation, the weight of a tennis ball should be between 56 and 59.4 grams" 
 }
 function UserTwoTimeoutFax7() {
     document.getElementById("userfact2") = innerText = "If you win, lose or draw, press the SF logo to play again or pick a different sport."

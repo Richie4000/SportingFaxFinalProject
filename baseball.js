@@ -125,17 +125,16 @@ function checkWinner() {
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
     if (board[r][c] == playerOne) {
-        winner.innerText = "User 1 Wins. You can't win unless you learn how to lose.";             
+        winner.innerText = "User 1 Wins. I love the winning, I can take the losing, but most of all I love to play.";             
     } else {
-        winner.innerText = "User 2 Wins. The more difficult the victory, the greater the happiness in winning.";
+        winner.innerText = "User 2 Wins. I never look back, I look forward";
     }
     gameOver = true;
 }
 
-
 // need to add some JS relating to the facts
 
-// Sporting Fax for User 1, every 4 seconds a fact will show up
+// Sporting Fax for User 1, every 6 seconds a fact will show up
 
 setTimeout(TimeoutFax, 6000)
 setTimeout(TimeoutFax2, 12000)
@@ -145,24 +144,23 @@ setTimeout(TimeoutFax5, 30000)
 setTimeout(TimeOutFax6, 36000)
 setTimeout(TimeoutFax7, 42000)
 
-// Every 6 seconds, facts will print out on the screen
 function TimeoutFax() {
-    document.getElementById("userfact").innerText = "Basketball was invented by Dr. James Naismith in 1891."
+    document.getElementById("userfact").innerText = "There are 18 players on the pitch at one time: two teams of nine."
 }
 function TimeoutFax2() {
-    document.getElementById("userfact").innerText = "The NBA has been around since the 1970s."
+    document.getElementById("userfact").innerText = "The New York Yankees have won the World Series the most. 27 times!"
 }
 function TimeOutFax3() {
-    document.getElementById("userfact").innerText = "Wilt Chamberlain broke the record for 100 points in a single game."
+    document.getElementById("userfact").innerText = "There are 108 stitches in a baseball. They are traditionally made with cowhide with rubber layers."
 }
 function TimeoutFax4() {
-    document.getElementById("userfact").innerText = "Kobe Bryant was the youngest player to start an NBA Match."
+    document.getElementById("userfact").innerText = "Baseball appeals to all ages. The oldest player was 47 years old."
 }
 function TimeoutFax5() {
-    document.getElementById("userfact").innerText = "The average that an NBA player runs is 2.5 miles per game. "
+    document.getElementById("userfact").innerText = "Baseball was created by Amber Doubleday in 1839. It was created to take the soldiers’ minds off the Civil War."
 }
 function TimeOutFax6() {
-    document.getElementById("userfact").innerText = "Women’s basketball was officially added as an Olympic sport during the 1976 Summer Olympics in Montreal."
+    document.getElementById("userfact").innerText = "The World Series is over 110 years old dating back to 1903 (the 20th century)." 
 }
 function TimeoutFax7() {
     document.getElementById("userfact").innerText = "If you win, lose or draw, press the SF logo to play again or pick a different sport."
@@ -179,23 +177,23 @@ setTimeout(UserTwoTimeoutFax6, 60000)
 setTimeout(UserTwoTimeoutFax7, 65000)
 
 function UserTwoTimeoutFax() {
-    document.getElementById("userfact2").innerText = "The odds of getting a hole-in-one is 12,500 to one."
+    document.getElementById("userfact2").innerText = "The longest game of snooker was 93 minutes and 12 seconds, during the 2008 China Open."
 }
 function UserTwoTimeoutFax2() {
-    document.getElementById("userfact2").innerText = "The odds of getting two holes in one are 67 million to one!"
+    document.getElementById("userfact2").innerText = "The shortest frame of Snooker lasted only 3 minutes and was won by Tony Drago in 2009, Drago was a pleased well-known for his quick breaks and was often penalized by officials for not waiting for all the balls to stop moving before playing his next shot."
 }
 function UserTwoTimeoutFax3() {
-    document.getElementById("userfact2").innerText = "St Andrews, Scotland has a famous course that has been around since the 15th century."
+    document.getElementById("userfact2").innerText = "Snooker was created in India."
 }
 function UserTwoTimeoutFax4() {
-    document.getElementById("userfact2").innerText = "The record for the longest putt is 375 feet."
+    document.getElementById("userfact2").innerText = "Ronnie Sullivan has won the World Snooker Championship seven times."
 }
 function UserTwoTimeoutFax5() {
-    document.getElementById("userfact2").innerText = "Golf is a relaxing and sociable sport that can burn calories."
+    document.getElementById("userfact2").innerText = "Snooker will always be considered a game for strategies, a game meant to be played slowly. Pool, on the other hand, is fast-paced and short-lived, meant as a break between placing horse bets."
 }
 function UserTwoTimeoutFax6() {
-    document.getElementById("userfact2").innerText = "There are claims that the Scots invented golf in the 19th century, or the Chinese invented it in the 10th century." 
+    document.getElementById("userfact2").innerText = "The World Snooker Championship is an annual snooker tournament founded in 1927 and since 1977 played at the Crucible Theatre in Sheffield, England. The tournament is now played over seventeen days in late April and early May." 
 }
 function UserTwoTimeoutFax7() {
-    document.getElementById("userfact2") = innerText = "If you win, lose or draw, press the SF logo to play again or pick a different sport."
+    document.getElementById("userfact2") = innerText = "If you win, lose or draw, press the SF logo to play again or pick a different sport." 
 }

@@ -125,9 +125,9 @@ function checkWinner() {
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
     if (board[r][c] == playerOne) {
-        winner.innerText = "User 1 Wins. You can't win unless you learn how to lose.";             
+        winner.innerText = "User 1 Wins. It is not the strong one that wins, the one that wins is strong.";             
     } else {
-        winner.innerText = "User 2 Wins. The more difficult the victory, the greater the happiness in winning.";
+        winner.innerText = "User 2 Wins. Winning takes talent; to repeat takes character.";
     }
     gameOver = true;
 }
@@ -142,28 +142,35 @@ setTimeout(TimeoutFax2, 12000)
 setTimeout(TimeOutFax3, 18000)
 setTimeout(TimeoutFax4, 24000)
 setTimeout(TimeoutFax5, 30000)
-setTimeout(TimeOutFax6, 36000)
-setTimeout(TimeoutFax7, 42000)
+setTimeout(TimeOutFax6, 38000)
+setTimeout(TimeoutFax7, 44000)
 
-// Every 6 seconds, facts will print out on the screen
 function TimeoutFax() {
-    document.getElementById("userfact").innerText = "Basketball was invented by Dr. James Naismith in 1891."
+    document.getElementById("userfact").innerText = "Venus and Serena Williams were the first sisters to win Olympic gold medals in tennis."
 }
+
+
 function TimeoutFax2() {
-    document.getElementById("userfact").innerText = "The NBA has been around since the 1970s."
+    document.getElementById("userfact").innerText = "Wimbledon has been around since the 19th century dating back to 1877."
 }
+
+
 function TimeOutFax3() {
-    document.getElementById("userfact").innerText = "Wilt Chamberlain broke the record for 100 points in a single game."
+    document.getElementById("userfact").innerText = "Grunts are measured in tennis. Maria Sharapova’s grunt was 105 decibels, it was recorded as the loudest."
 }
+
 function TimeoutFax4() {
-    document.getElementById("userfact").innerText = "Kobe Bryant was the youngest player to start an NBA Match."
+    document.getElementById("userfact").innerText = "In the 12th century, tennis was played with hands. Eventually, rackets were introduced in the 16th century because people’s hands got sore."
 }
+
 function TimeoutFax5() {
-    document.getElementById("userfact").innerText = "The average that an NBA player runs is 2.5 miles per game. "
+    document.getElementById("userfact").innerText = "Novak Djokovic tops the male tennis players in terms of the highest number of prizes achieved, with over $143 million in winnings!."
 }
+
 function TimeOutFax6() {
-    document.getElementById("userfact").innerText = "Women’s basketball was officially added as an Olympic sport during the 1976 Summer Olympics in Montreal."
+    document.getElementById("userfact").innerText = "According to the International Tennis Federation, the weight of a tennis ball should be between 56 and 59.4 grams"
 }
+
 function TimeoutFax7() {
     document.getElementById("userfact").innerText = "If you win, lose or draw, press the SF logo to play again or pick a different sport."
 }
@@ -179,22 +186,22 @@ setTimeout(UserTwoTimeoutFax6, 60000)
 setTimeout(UserTwoTimeoutFax7, 65000)
 
 function UserTwoTimeoutFax() {
-    document.getElementById("userfact2").innerText = "The odds of getting a hole-in-one is 12,500 to one."
+    document.getElementById("userfact2").innerText = "There are 18 players on the pitch at one time: two teams of nine. "
 }
 function UserTwoTimeoutFax2() {
-    document.getElementById("userfact2").innerText = "The odds of getting two holes in one are 67 million to one!"
+    document.getElementById("userfact2").innerText = "The New York Yankees have won the World Series the most. 27 times!"
 }
 function UserTwoTimeoutFax3() {
-    document.getElementById("userfact2").innerText = "St Andrews, Scotland has a famous course that has been around since the 15th century."
+    document.getElementById("userfact2").innerText = "There are 108 stitches in a baseball. They are traditionally made with cowhide with rubber layers."
 }
 function UserTwoTimeoutFax4() {
-    document.getElementById("userfact2").innerText = "The record for the longest putt is 375 feet."
+    document.getElementById("userfact2").innerText = "Baseball appeals to all ages. The oldest player was 47 years old."
 }
 function UserTwoTimeoutFax5() {
-    document.getElementById("userfact2").innerText = "Golf is a relaxing and sociable sport that can burn calories."
+    document.getElementById("userfact2").innerText = "Baseball was created by Amber Doubleday in 1839. It was created to take the soldiers’ minds off the Civil War."
 }
 function UserTwoTimeoutFax6() {
-    document.getElementById("userfact2").innerText = "There are claims that the Scots invented golf in the 19th century, or the Chinese invented it in the 10th century." 
+    document.getElementById("userfact2").innerText = "The World Series is over 110 years old dating back to 1903 (the 20th century)." 
 }
 function UserTwoTimeoutFax7() {
     document.getElementById("userfact2") = innerText = "If you win, lose or draw, press the SF logo to play again or pick a different sport."

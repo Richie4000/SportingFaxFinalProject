@@ -29,8 +29,8 @@ footer {
 #board {
     height: 540px;
     width: 630px;
-    background-color: blue;
-    border: 10px solid navy;
+    background-color: green;
+    border: 10px solid black;
     
     margin: 0 auto;
     display: flex;
@@ -46,24 +46,25 @@ footer {
     /* Circle */
     background-color: white;
     border-radius: 50%;
-    border: 5px solid navy;
+    border: 5px solid black;
 }
 
 
 /* User One attributes*/
-.userfact {
+#userfact {
     background-color: aqua;
-    text-align: left;
+    text-align: center;
     border: 2px solid black;
     border-radius: 12px;
     padding: 0.2px;
+    position: absolute;
 
 }
 
 /* User Two attributes, I have moved this to the right */
-.userfact2 {
+#userfact2 {
     background-color: rebeccapurple;
-    text-align: right;
+    text-align: center;
     position: absolute;
     top: 8px;
     right: 16px;
